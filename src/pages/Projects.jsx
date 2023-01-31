@@ -71,23 +71,23 @@ const Projects = () => {
                 <div className="px-2 md:px-4">
                   <div className="mt-1 md:mt-2 flex justify-between items-center">
                     <a href={link}>
-                      <h3 className="font-semibold text-base md:text-xl lg:text-2xl text-blue">
+                      <h3 className="font-semibold text-base md:text-xl lg:text-2xl button">
                         {name}
                       </h3>
                     </a>
 
                     <a href={link} target="_blank">
-                      <FaChevronCircleRight className="text-xl lg:text-3xl text-primary" />
+                      <FaChevronCircleRight className="text-xl lg:text-3xl title" />
                     </a>
                   </div>
                   <h4 className="text-gray text-xs md:text-base">
                     Technology Used:
                   </h4>
-                  <div className="ml-4 flex gap-2 lg:gap-4">
+                  <div className="lg:ml-4 flex gap-2 lg:gap-4">
                     {tech.map((data, index) => (
                       <li
                         key={index}
-                        className="list-none md:list-disc font-bold text-primary text-sm md:text-base lg:text-lg"
+                        className="list-none md:list-disc font-bold text-sm md:text-base lg:text-lg button"
                       >
                         {data}
                       </li>
@@ -123,7 +123,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="md:flex-1 flex items-center justify-center rounded-lg p-4 w-[80%] max-h-[40rem] md:h-[80%] mt-8 md:mt-0 md:mr-4 overflow-hidden bg-fade-red my-shadow2 move">
+      <div className="md:flex-1 flex items-center justify-center rounded-lg p-4 w-[80%] max-h-[40rem] md:h-[80%] mt-8 md:mt-0 md:mr-4 overflow-hidden bg-fade-red my-shadow2 move swing">
         <img
           src="/images/Nerd-amico.png"
           alt="avatar"
