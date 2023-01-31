@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <motion.section
       className="flex w-full h-full items-center justify-between flex-col-reverse md:flex-row font-Poppins px-4"
-      // {...fadeUp}
+      {...fadeUp}
     >
       <div className="flex-1 flex items-center justify-center text-center flex-col px-0 md:px-8 lg:px-16">
         <h2 className="title leading-relaxed">
@@ -50,11 +50,7 @@ const Home = () => {
           <Link to="/about">
             <button className="btn">Explore ...</button>
           </Link>
-          <form
-            method="get"
-            target="_blank"
-            action="../../public/resume/Farouk.pdf"
-          >
+          <form method="get" target="_blank" action="Farouk.pdf">
             <button className="btn" type="submit">
               Open CV!
             </button>
