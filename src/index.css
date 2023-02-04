@@ -8,6 +8,7 @@
   .title {
     @apply text-[26px] md:text-3xl 2xl:text-5xl font-bold;
     color: #6500e0;
+    font-weight: 700;
   }
 
   .btn {
@@ -28,7 +29,6 @@
 .my-shadow {
   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
     inset -5px -5px 5px rgba(255, 255, 255, 0.8);
-  /* color: rgba(165, 29, 45, 0.3); */
 }
 
 .my-shadow2 {
@@ -51,11 +51,9 @@
 @keyframes swing {
   0% {
     transform: translate(-1rem, -0.5rem);
-    /* translate: -1rem -1rem; */
   }
   100% {
     transform: translate(1rem, 0.5rem);
-    /* translate: 1rem 1rem; */
   }
 }
 
@@ -66,17 +64,14 @@
 .skill {
   background: transparent;
   border-radius: 50%;
-  /* color: #fff; */
 }
 
 .skill-shadow {
-  /* padding: 0.5rem; */
   scale: 1.1;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   transition: all 0.5s;
-  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
 }
 
 .skill-shadow:hover {
