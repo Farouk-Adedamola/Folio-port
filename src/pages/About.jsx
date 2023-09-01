@@ -43,10 +43,11 @@ const About = () => {
             style={{ color: "#191716" }}
             className="font-bold leading-loose text-[15px] md:text-base lg:text-lg mt-1 md:mt-2 lg:mt-3"
           >
-            <span className="button font-semibold mr-2">Note about me:</span>I
-            am a detail oriented, organized and meticulous person. I works at
-            fast pace to meet tight deadlines. I am enthuastic person ready to
-            contribute to your success.
+            <span className="button font-semibold mr-2">Note about me:</span>I'm
+            a dedicated junior developer with a knack for turning innovative
+            ideas into beautifully functional web experiences. With a strong
+            foundation in HTML, CSS, and JavaScript, I'm on a mission to create
+            seamless user interfaces that captivate and engage.
           </h2>
         </div>
       </div>

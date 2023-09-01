@@ -22,25 +22,25 @@ export const projects = [
   {
     name: "vacanxie",
     img: "vacancy.png",
-    tech: ["CSS", "React JS"],
+    tech: ["React JS"],
     link: "https://vacanxe-sigma.vercel.app/",
   },
   {
     name: "Interno",
     img: "interno.png",
-    tech: ["CSS", "Styled-components", "React JS"],
+    tech: ["CSS", "Styled-components", "ReactJS"],
     link: "https://interno-woad.vercel.app/",
   },
   {
     name: "Icelandic",
     img: "icelandic.png",
-    tech: ["CSS", "React JS"],
+    tech: ["ReactJS"],
     link: "https://icelandic-ui.vercel.app/",
   },
   {
     name: "Omni Food",
     img: "omni-food.png",
-    tech: ["HTML", "React"],
+    tech: ["ReactJS"],
     link: "http://omni-food-eight.vercel.app/",
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
   {
     name: "GPT Website",
     img: "gpt-3.png",
-    tech: ["CSS", "Javascript", "React.JS"],
+    tech: ["ReactJS"],
     link: "https://gpt-3-theta.vercel.app/",
   },
 ];
