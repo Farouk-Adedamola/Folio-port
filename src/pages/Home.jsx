@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import TypewriterComponent from "typewriter-effect";
+// import Farouk from "../resume/Farouk.pdf"
 
 import { fadeUp } from "../data";
 
@@ -50,11 +51,13 @@ const Home = () => {
           <Link to="/about">
             <button className="btn">Explore ...</button>
           </Link>
-          <form method="get" target="_blank" action="Farouk.pdf">
-            <button className="btn" type="submit">
+          {/* <form method="get" target="_blank" download="new" action="Farouk.pdf"> */}
+          <button className="btn">
+            <a href="/src/resume/Farouk.pdf" download="Farouk.pdf">
               Open CV!
-            </button>
-          </form>
+            </a>
+          </button>
+          {/* </form> */}
         </div>
       </div>
       <div className="md:flex-1 flex items-center justify-center rounded-lg p-4 w-[80%] max-h-[40rem] md:h-[80%] mt-8 md:mt-0 md:mr-4 overflow-hidden move my-shadow2 swing">
